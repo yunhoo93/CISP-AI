@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상환경
+venv/
+env/
+ENV/
+virtualenv/
+
+# 환경변수 (절대 커밋하지 말 것!)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# 데이터 파일 (업로드된 증거 파일들)
+app/evidence/*
+!app/evidence/.gitkeep
+
+# 생성된 보고서 파일
+app/reports/*
+!app/reports/.gitkeep
+
+# 벡터 DB
+app/chroma_db/*
+!app/chroma_db/.gitkeep
+
+# OS 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.jsonapp/fonts/malgun.ttf
+app/fonts/arial.ttf
