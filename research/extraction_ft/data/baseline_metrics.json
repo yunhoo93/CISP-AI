@@ -1,0 +1,17 @@
+{
+  "action_em": 0.4575,
+  "action_f1": 0.5961726190476186,
+  "interaction_em": 0.195,
+  "interaction_f1": 0.5746949622723886,
+  "object_em": 0.5325,
+  "object_f1": 0.6848531746031746,
+  "place_em": 0.705,
+  "place_f1": 0.862558567163831,
+  "result_em": 0.1575,
+  "result_f1": 0.5998191590186571,
+  "time_em": 0.655,
+  "time_f1": 0.8535764828034402,
+  "unknown_false_positive_rate": 0.028374999999999987,
+  "unknown_recall": 0.513986013986014,
+  "n_cases": 400.0
+}
