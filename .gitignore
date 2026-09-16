@@ -75,3 +75,7 @@ htmlcov/
 .dmypy.json
 dmypy.jsonapp/fonts/malgun.ttf
 app/fonts/arial.ttf
+
+# LoRA 학습 재개용 중간 체크포인트 (최종 adapter_model.safetensors만 남기면 충분)
+research/lora_train/runs/*/checkpoint-*/
+research/lora_train/runs/smoke_test/
